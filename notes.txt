@@ -1,0 +1,11 @@
+edX Introduction to Node.js Assignment 2
+RESTful Blog API
+
+- Files submmited: this notes.txt, server.js, test.sh (to run general test), index.js, post.js and comments.js (within routes directory), results.json (1 to 7) showing the data at different stages to the test.
+
+- I used a middleware function to check that the urls were properly formed and the :post_id and :comment_id params were within bounds. Once routed the requests are guaranteed to be valid.
+
+- Routes are listed from complex to simple by preferred style. Some software (not express.js) may fail by interpreting partial urls, but anyway...
+
+Thanks for comments. Rolando.
+
